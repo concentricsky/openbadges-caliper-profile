@@ -21,19 +21,23 @@ alignmentUrl   |            |             | schema:targetUrl
 
 ## Actions
 
-Action           | IRI       | Description
------------------|-----------|------------
-RegisteredIssuer | TBA       | Defined a new Issuer Profile
-Defined          | TBA       | Defined a new BadgeClass
-Updated          | TBA       | Updated a previously defined badge object with new metadata
-Issued           | TBA       | Awarded an instance of a BadgeClass to a recipient, perhaps accepting an application
-Verified         | TBA       | Verified an Open Badge's authenticity and structural integrity
-Shared           | TBA       | Triggered or authorized a share of a single badge
-Endorsed         | TBA       | Issued an endorsement or annotation of an Issuer, BadgeClass, or Assertion that should be published
-Displayed        | TBA       | Displayed badge details on a single badge to a consumer
-Accepted         | TBA       | Inspected a badge or pathway with completion data and accepted it in exchange for some privilege, opportunity, access, or other benefit granted to the recipient.
-Applied          | TBA       | User submits evidence to an issuer in hopes of earning a badge.
-AssignedToObjective | TBA    | Set BadgeClass as related to prospective opportunity, privilege, objective, learning pathway, skill or competency definition
+Action              | IRI       | Description
+--------------------|-----------|------------
+DefinedIssuer       | TBA       | Defined a new Issuer Profile
+DefinedBadge        | TBA       | Defined a new BadgeClass
+IssuedBadge         | TBA       | Awarded an instance of a BadgeClass to a recipient, perhaps accepting an application
+Updated             | TBA       | Updated a previously defined badge object with new metadata
+RevokedBadge        | TBA       | Updated a previously awarded badge to mark it as revoked
+Deleted             | TBA       | Marked a defined badge object as deleted
+Registered          | TBA       | Registered a recipient profile with a backpack endpoint or issuer profile with issuer endpoint
+Requested           | TBA       | Requested a badge object or related resource from an issuer or repository
+Verified            | TBA       | Verified an Open Badge's authenticity and structural integrity
+Shared              | TBA       | Triggered or authorized a share of a single badge, collection, or other document including badges
+Endorsed            | TBA       | Issued an endorsement or annotation of an Issuer, BadgeClass, or Assertion that should be published
+Displayed           | TBA       | Displayed badge details on a single badge to a consumer
+Accepted            | TBA       | Inspected a badge or pathway with completion data and accepted it in exchange for some privilege, opportunity, access, or other benefit granted to the recipient.
+Applied             | TBA       | User submits evidence to an issuer in hopes of earning a badge.
+AssignedToObjective | TBA       | Set BadgeClass as related to prospective opportunity, privilege, objective, learning pathway, skill or competency definition
 
 ## Open Badges Event
 

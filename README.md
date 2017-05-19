@@ -26,6 +26,7 @@ Action              | IRI       | Description
 DefinedIssuer       | TBA       | Defined a new Issuer Profile
 DefinedBadge        | TBA       | Defined a new BadgeClass
 IssuedBadge         | TBA       | Awarded an instance of a BadgeClass to a recipient, perhaps accepting an application
+MetCriteria         | TBA       | Recipient has met criteria for a BadgeClass and should be awarded a badge.
 Updated             | TBA       | Updated a previously defined badge object with new metadata
 RevokedBadge        | TBA       | Updated a previously awarded badge to mark it as revoked
 Deleted             | TBA       | Marked a defined badge object as deleted

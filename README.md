@@ -25,6 +25,7 @@ Action | IRI | Description | New   |
 -------|-----|------------ | :---: |
 Defined | http://purl.imsglobal.org/vocab/caliper/action#Defined | Defined a new BadgeClass or Issuer | Yes |
 Issued  | http://purl.imsglobal.org/vocab/caliper/action#Issued | Awarded an instance of a BadgeClass to a recipient, perhaps accepting an application | Yes
+MetCriteria | http://purl.imsglobal.org/vocab/caliper/action#MetCriteria | Recipient has met criteria for a BadgeClass and should be awarded a badge. | Yes
 Modified | http://purl.imsglobal.org/vocab/caliper/action#Modified | Modified or updated a previously defined badge object with new metadata | No
 Revoked | http://purl.imsglobal.org/vocab/caliper/action#Revoked | Updated a previously awarded badge to mark it as revoked | Yes
 Deleted | http://purl.imsglobal.org/vocab/caliper/action#Deleted | Marked a defined badge object as deleted | No
